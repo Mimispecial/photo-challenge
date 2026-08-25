@@ -1,0 +1,30 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "owner_wallet_address": "0x59dfC66F9be899802325E272d25C74834733eE33",
+  "contract_address": "0xb1eB7d6DFd7A7985d0eBFEb7683fe72812B1d484",
+  "deployment_transaction_hash": "0x5ea4b151c848020eb964caa2e56bee6b86cb8148f543ec2962ea1f1250e33a34",
+  "intelligent_transaction_hash": "0x39f553db845953c601d7442606f025a6652ff297c6dbd61481271a10565e6a6c",
+  "verified_on": "2026-08-25",
+  "verification": {
+    "transaction_execution_succeeded": true,
+    "status_name": "FINALIZED",
+    "consensus_guard": "result_name absent or AGREE/MAJORITY_AGREE",
+    "execution_guard": "tx_execution_result_name absent or FINISHED_WITH_RETURN",
+    "state_read": "LATEST_FINAL",
+    "observed": "LEFT"
+  },
+  "source": {
+    "path": "contracts/photo_challenge.py",
+    "sha256": "ab5f14ef2daa8760fd6dd28b76148b8a98dce0f246d3cc1d2052ed3f5e7e655c",
+    "genvm_runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6"
+  },
+  "wallet_policy": "Mimi-only encrypted keystores outside the workspace; no wallet from another owner and no secret committed",
+  "tooling": {
+    "genvm_linter": "0.11.0",
+    "genlayer_test": "0.29.2",
+    "pyright": "1.1.411",
+    "pytest": "9.1.1"
+  }
+}
